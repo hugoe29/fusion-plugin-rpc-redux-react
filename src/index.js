@@ -12,7 +12,7 @@ import {
   RPCHandlersToken,
   ResponseError,
 } from 'fusion-plugin-rpc';
-import {createRPCReducer} from 'fusion-rpc-redux';
+import {createRPCReducer, ActionType} from 'fusion-rpc-redux';
 import {withRPCRedux, withRPCReactor} from './hoc';
 import plugin, {mock} from './plugin';
 
@@ -26,4 +26,5 @@ export {
   RPCHandlersToken,
   withRPCRedux,
   withRPCReactor,
+  ActionType,
 };
