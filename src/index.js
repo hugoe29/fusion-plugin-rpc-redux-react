@@ -27,5 +27,5 @@ export {
   RPCHandlersToken,
   withRPCRedux,
   withRPCReactor,
-  ActionType,
 };
+export type {ActionType};
